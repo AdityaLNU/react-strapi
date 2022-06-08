@@ -13,7 +13,7 @@ const App = () => {
     }
     const res = await axios.request(options);
     setData(res.data.data.attributes.Title);
-    console.log(res.data)
+    // console.log(res.data)
 
   }
 
